@@ -1,0 +1,14 @@
+package mainmethod;
+
+public class nonstatic {
+public static void main(String[] args) {
+	nonstatic x= new nonstatic();
+	x.M3();
+	}
+public void M3() {
+	System.out.println("non static started");
+
+
+}
+	
+}
